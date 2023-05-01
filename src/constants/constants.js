@@ -24,11 +24,13 @@ const navLinks = [
 const loginLinks = [
     {
         to: "/login",
-        title: "loginlink"
+        title: "Sign In",
+        style: "text-navLight border-slate-300 hover:border-black hover:text-black"
     },
     {
         to: "/register",
-        title: "registerlink"
+        title: "Sign Up",
+        style: "bg-black text-white hover:bg-white border-black hover:text-black"
     },
 ]
 
