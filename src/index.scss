@@ -28,9 +28,9 @@ body {
   display: block;
 }
 
-header {
-  backdrop-filter: blur(4px);
-}
+// header {
+//   backdrop-filter: blur(4px);
+// }
 
 .navLink {
   position: relative;
@@ -53,4 +53,8 @@ header {
     background-position: right;
     transition: all .4s ease-out;
   }
+}
+
+.mobile-menu {
+  height: calc(100vh - 4rem);
 }
